@@ -1,0 +1,11 @@
+# Enable scrollback buffer
+defscrollback 5000
+termcapinfo xterm* ti@:te@
+
+# Disable start-up message
+startup_message off
+
+# Enable status bar
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
